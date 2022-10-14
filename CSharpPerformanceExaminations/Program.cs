@@ -13,7 +13,8 @@ namespace CSharpPerformanceExaminations
         /// <param name="args"></param>
         static async Task Main(string[] args)
         {
-            
+            var instance = new CopyToVSClone();
+            instance.DoWork();
         }
     }
 }
